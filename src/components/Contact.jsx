@@ -42,12 +42,7 @@ const Contact = () => {
               >
                 <SiInstagram />
               </a>
-              <a
-                href="#"
-                className=" hover:text-slate-500  dark:hover:text-sky-300"
-              >
-                
-              </a>
+            
               <a
                 href="ashumaurya074@gmail.com"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
