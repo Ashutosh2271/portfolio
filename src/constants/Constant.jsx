@@ -12,8 +12,8 @@ import react from "../assets/React.png";
 import Vue from "../assets/Vue.png";
 
 import Hackthechain from "../assets/HackTheChainLogo.png";
-import GSSOC from "../assets/GSSoc.jpg";
-import IITB from "../assets/IITB.png";
+import GSSOC from "../assets/GSSoC.jpg";
+
 import Sports from "../assets/Sports_Club.png";
 import IIITians from "../assets/IIITians_Network.png";
 import GDSC from "../assets/GDSC.png";
@@ -41,7 +41,6 @@ export {
   Vue,
   Hackthechain,
   GSSOC,
-  IITB,
   Sports,
   IIITians,
   GPT4,

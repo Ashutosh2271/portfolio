@@ -46,9 +46,7 @@ const Navbar = () => {
             <a href="#contact" className="hover:text-cyan-500 ">
               Contact
             </a>
-            <a href="#contact" className="hover:text-cyan-500 ">
-              Contact
-            </a>
+           
             <button onClick={handleTheme}>
               {theme === "dark" ? (
                 <HiMoon className="-translate-y-1 text-2xl" />
