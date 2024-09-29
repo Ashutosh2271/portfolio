@@ -17,9 +17,11 @@ import Portfolio from "../assets/portfolio.jpg";
 import Rocket from "../assets/Rocket.jpg";
 import Game from "../assets/Stone.jpg";
 import WellBeing from "../assets/well-being.jpg";
+import icon from "../assets/icon.png"
 export {
   C,
   CPP,
+  icon,
   HTML,
   CSS,
   Github,
