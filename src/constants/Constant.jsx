@@ -18,6 +18,7 @@ import Rocket from "../assets/Rocket.jpg";
 import Game from "../assets/Stone.jpg";
 import WellBeing from "../assets/well-being.jpg";
 import icon from "../assets/icon.png"
+import logo from "../assets/logo.png"
 export {
   C,
   CPP,
@@ -39,4 +40,5 @@ export {
   WellBeing,
   Game,
   Oppia,
+  logo,
 };

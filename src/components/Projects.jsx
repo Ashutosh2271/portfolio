@@ -6,6 +6,7 @@ import {
   WellBeing,
   icon,
   Game,
+  logo
 } from "../constants/Constant";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
@@ -20,6 +21,7 @@ import {
   SiCss3,
   SiJavascript,
 } from "react-icons/si";
+
 
 const Projects = () => {
   useEffect(() => {
@@ -72,6 +74,34 @@ const Projects = () => {
             para="Todo-list created with React,Talwind css i used crud operation and for state management use context API"
             img={icon}
             link="https://todolist-five-black.vercel.app/"
+            github_link="https://github.com/Ashutosh2271/todolist"
+            react={
+              <Tooltip title="React" arrow>
+                <IconButton>
+                  <SiReact className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            tailwindcss={
+              <Tooltip title="TailWind CSS" arrow>
+                <IconButton>
+                  <SiTailwindcss className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            vite={
+              <Tooltip title="Vite" arrow>
+                <IconButton>
+                  <SiVite className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+          />
+          <Project_prop
+            title="E-commerce"
+            para="E-Commerce website using react talwinscss express mongo-db"
+            img={logo}
+            link="https://e-commerce-23.vercel.app/"
             github_link="https://github.com/Ashutosh2271/todolist"
             react={
               <Tooltip title="React" arrow>
